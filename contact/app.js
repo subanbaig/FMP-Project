@@ -1,16 +1,15 @@
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAADEZNOV1HQG065npiMfaflOm_ijrqYeg",
-    authDomain: "threadzit-35cda.firebaseapp.com",
-    databaseURL: "https://threadzit-35cda-default-rtdb.firebaseio.com",
-    projectId: "threadzit-35cda",
-    storageBucket: "threadzit-35cda.appspot.com",
-    messagingSenderId: "212944182937",
-    appId: "1:212944182937:web:ef9e971c090bbbfdd12208"
+  const firebaseConfig = {
+    apiKey: "AIzaSyDl9_DG07REV3nKCKNxmo4iSJcclV8YQFI",
+    authDomain: "thread-zit.firebaseapp.com",
+    projectId: "thread-zit",
+    databaseURL: "https://thread-zit-default-rtdb.firebaseio.com",
+    storageBucket: "thread-zit.appspot.com",
+    messagingSenderId: "313849781991",
+    appId: "1:313849781991:web:e8bde3e914e26ed93dcc42"
   };
 
   // Initialize Firebase
-  
   const app = firebase.initializeApp(firebaseConfig);
   var db = firebase.database();
 
