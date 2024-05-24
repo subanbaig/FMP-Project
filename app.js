@@ -3,7 +3,7 @@ function shirts(){
 }
 
 function hoodies(){
-  window.location.href = 'Hoodies/hoodies.html'
+  window.location.href = 'hoodies/hoodies.html'
 }
 
 function continueShopping(){
